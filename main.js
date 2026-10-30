@@ -75,12 +75,12 @@
         for (var j = i + 1; j < pts.length; j++) {
           var q = pts[j], dx = p.x - q.x, dy = p.y - q.y, d = Math.sqrt(dx * dx + dy * dy);
           if (d < D) {
-            ctx.strokeStyle = "rgba(124,92,255," + (0.35 * (1 - d / D)).toFixed(3) + ")";
+            ctx.strokeStyle = "rgba(0,0,0," + (0.14 * (1 - d / D)).toFixed(3) + ")";
             ctx.lineWidth = 1;
             ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
           }
         }
-        ctx.fillStyle = "rgba(34,211,238,0.7)";
+        ctx.fillStyle = "rgba(0,0,0,0.28)";
         ctx.beginPath(); ctx.arc(p.x, p.y, 1.6, 0, 6.2832); ctx.fill();
       }
     }

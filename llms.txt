@@ -1,6 +1,6 @@
 # Little AI
 
-> Little AI is an AI consultancy that works with enterprises and domain experts to integrate AI deeply into vertical industries (accounting, legal, geological hazard assessment, AI infrastructure). Services: consulting, system design, system integration, forward deployed engineering and AI products. Contact: jilong.liao@little-ai.io
+> Little AI is an AI consultancy that works with enterprises and domain experts to integrate AI deeply into vertical industries (accounting, legal, geological hazard assessment, AI infrastructure). Services: consulting, system design, system integration, forward deployed engineering and AI products. Contact: contact@little-ai.io
 
 ## Pages
 
@@ -8,12 +8,8 @@
 - [Little AI (中文)](https://www.little-ai.io/zh/index.md): 服务、工作方式、案例、团队与常见问题（Markdown）
 - [Full content](https://www.little-ai.io/llms-full.txt): Both languages in one file
 
-## Work and code
+## Links
 
-- [tinker-ai](https://github.com/little-ai-io/tinker-ai): Vertical-domain AI agent that generates geological hazard assessment reports with Word output and CAD drawings
-- [geo-hazard-assessment-workbench](https://github.com/little-ai-io/geo-hazard-assessment-workbench): Web app for the report lifecycle, site data, Word and DWG tracking
-- [keystone](https://github.com/little-ai-io/keystone): Digital associate for law firms on locally deployed open-source models
-- [ansible-playbooks](https://github.com/little-ai-io/ansible-playbooks): Machine provisioning playbooks
 - [Engineering blog](https://jilongliao.github.io/): Technical write-ups
 
 ## Optional

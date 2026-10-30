@@ -4,7 +4,7 @@ Little AI 与企业及其行业专家并肩工作，把 AI 变成真正创造价
 
 涉及领域：会计、法律、地质灾害评估、AI 基础设施。
 团队经验：Microsoft、Cruise Automation、Walmart 及创业公司。
-联系：jilong.liao@little-ai.io · GitHub: https://github.com/little-ai-io · 博客: https://jilongliao.github.io/
+联系：contact@little-ai.io · GitHub: https://github.com/little-ai-io · 博客: https://jilongliao.github.io/
 English: https://www.little-ai.io/
 
 ## 服务
@@ -35,13 +35,11 @@ English: https://www.little-ai.io/
 - 问题：报告必须遵循国家标准，整合业主与现场资料，并附带 CAD 图件。
 - 方法：文字与图件共享事实库；固定内容用模板与规则；大模型只负责抽取、改写和建议。危险性等级由专家验证过的判定表给出，绝不由模型决定，并独立重新计算校验。
 - 交付：报告生成 Agent，以及管理报告生命周期、现场数据、Word 与 DWG 文件的 Web 工作台。
-- 代码：https://github.com/little-ai-io/tinker-ai · https://github.com/little-ai-io/geo-hazard-assessment-workbench
 
 ### 法律：律所的数字助理
 - 问题：律所不能把客户案件发送到公共模型 API。
 - 方法：运行在本地部署开源模型上的 Agent 后端（vLLM、Qwen3.5-27B、Google ADK、FastAPI）。
 - 交付：自托管基础平台，客户数据不离开律所。
-- 代码：https://github.com/little-ai-io/keystone
 
 ### AI 基础设施：面向计算机视觉公司的多云 ML 平台
 - 问题：训练规模超出本地机器；TB 级数据集、GPU 紧缺、服务器与边缘硬件并存。

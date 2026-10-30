@@ -4,7 +4,7 @@ Little AI works side by side with enterprises and their domain experts to turn A
 
 Domains: accounting, legal, geological hazard assessment, AI infrastructure.
 Team experience: Microsoft, Cruise Automation, Walmart and startups.
-Contact: jilong.liao@little-ai.io · GitHub: https://github.com/little-ai-io · Blog: https://jilongliao.github.io/
+Contact: contact@little-ai.io · GitHub: https://github.com/little-ai-io · Blog: https://jilongliao.github.io/
 中文版: https://www.little-ai.io/zh/
 
 ## Services
@@ -35,13 +35,11 @@ Contact: jilong.liao@little-ai.io · GitHub: https://github.com/little-ai-io · 
 - Problem: reports must follow national standards, combine owner and field data and ship with CAD drawings.
 - Approach: a fact base shared by text and drawings; templates and rules for fixed content; LLMs only for extraction, rewriting and recommendations. Hazard grades come from expert-verified decision tables, never from a model, and are recomputed independently.
 - Delivered: a report-generation agent and a web workbench for report lifecycle, site data, Word and DWG files.
-- Code: https://github.com/little-ai-io/tinker-ai · https://github.com/little-ai-io/geo-hazard-assessment-workbench
 
 ### Legal: a digital associate for law firms
 - Problem: firms cannot send client matters to public model APIs.
 - Approach: agentic backend on locally deployed open-source models (vLLM, Qwen3.5-27B, Google ADK, FastAPI).
 - Delivered: a self-hosted foundation where client data never leaves the firm.
-- Code: https://github.com/little-ai-io/keystone
 
 ### AI infrastructure: multi-cloud ML platform for a computer-vision company
 - Problem: training outgrew local machines; terabyte-scale datasets, scarce GPUs and mixed server and edge hardware.
