@@ -1,0 +1,144 @@
+# Little AI — full content
+
+---
+
+# Little AI — Deep AI integration for vertical industries
+
+Little AI works side by side with enterprises and their domain experts to turn AI into production systems that create real value. We provide consulting, system design, system integration, forward deployed engineering and AI products.
+
+Domains: accounting, legal, geological hazard assessment, AI infrastructure.
+Team experience: Microsoft, Cruise Automation, Walmart and startups.
+Contact: jilong.liao@little-ai.io · GitHub: https://github.com/little-ai-io · Blog: https://jilongliao.github.io/
+中文版: https://www.little-ai.io/zh/
+
+## Services
+
+- **Consulting**: opportunity and feasibility assessment; build / buy / adapt strategy; roadmap with measurable outcomes.
+- **System design**: agent and workflow architecture; rule engines and decision tables where LLMs must not guess; evaluation, provenance and compliance design.
+- **System integration**: document, CAD and database pipelines; cloud, multi-cloud and on-prem deployment; identity, security and data residency.
+- **Forward deployed engineering**: engineers embed with your team and domain experts, work on your real data and systems, own delivery through to production, and transfer knowledge to your team.
+- **AI products**: digital associates and report-generation agents; workbenches for expert review and sign-off; self-hosted or managed.
+
+## How we work
+
+1. Discover with experts: understand the work, the standards and where judgment lives.
+2. Design for constraints: turn rules, compliance and data limits into architecture. Decide what AI drafts, what rules decide, what humans approve.
+3. Build and integrate, embedded: forward deployed engineers build inside your environment.
+4. Deliver value and iterate: measure against real outcomes and hand over a system your team owns.
+
+## Principles
+
+- Experts own the decisions.
+- Constrained, not free-form: models are confined to extraction, rewriting and suggestions.
+- Traceable by default: outputs carry sources and reasoning.
+- Private when it must be: open-source models on your own hardware or private cloud.
+
+## Selected work
+
+### Geological hazard assessment: AI report generation with a verifiable core
+- Problem: reports must follow national standards, combine owner and field data and ship with CAD drawings.
+- Approach: a fact base shared by text and drawings; templates and rules for fixed content; LLMs only for extraction, rewriting and recommendations. Hazard grades come from expert-verified decision tables, never from a model, and are recomputed independently.
+- Delivered: a report-generation agent and a web workbench for report lifecycle, site data, Word and DWG files.
+- Code: https://github.com/little-ai-io/tinker-ai · https://github.com/little-ai-io/geo-hazard-assessment-workbench
+
+### Legal: a digital associate for law firms
+- Problem: firms cannot send client matters to public model APIs.
+- Approach: agentic backend on locally deployed open-source models (vLLM, Qwen3.5-27B, Google ADK, FastAPI).
+- Delivered: a self-hosted foundation where client data never leaves the firm.
+- Code: https://github.com/little-ai-io/keystone
+
+### AI infrastructure: multi-cloud ML platform for a computer-vision company
+- Problem: training outgrew local machines; terabyte-scale datasets, scarce GPUs and mixed server and edge hardware.
+- Approach: one job-submission layer over Kubernetes on two clouds plus on-prem GPUs, Ray data pipelines, distributed training, edge compilation.
+- Result: training time cut from days to under 12 hours; thousands of managed jobs within weeks.
+
+### Accounting
+Document-heavy, rule-bound accounting work where accuracy and an audit trail matter. Practitioners define the rules, AI handles extraction and drafting, every figure stays traceable to its source.
+
+## FAQ
+
+**What does Little AI do?** Helps enterprises integrate AI deeply into vertical domains together with their domain experts: consulting, system design, system integration, forward deployed engineering and AI products.
+
+**What is forward deployed engineering?** Our engineers embed with your team and domain experts, work against your real data and systems, own delivery through to production, and transfer knowledge to your team.
+
+**Which industries do you work in?** Accounting, legal, geological hazard assessment and AI infrastructure so far; any domain with specialist knowledge, standards and documents.
+
+**Can AI run on our own infrastructure?** Yes. We deploy open-source models locally or in your private cloud.
+
+**How does an engagement start?** Email us. A short discovery conversation, then a focused first deliverable that proves value.
+
+**Do you build products or only consult?** Both.
+
+**Who is on the team?** Engineers with production experience from Microsoft, Cruise Automation, Walmart and several startups.
+
+
+---
+
+# Little AI — 把 AI 深度落地到垂直行业
+
+Little AI 与企业及其行业专家并肩工作，把 AI 变成真正创造价值的生产系统。我们提供咨询、系统设计、系统集成、前置部署工程（FDE）和 AI 产品。
+
+涉及领域：会计、法律、地质灾害评估、AI 基础设施。
+团队经验：Microsoft、Cruise Automation、Walmart 及创业公司。
+联系：jilong.liao@little-ai.io · GitHub: https://github.com/little-ai-io · 博客: https://jilongliao.github.io/
+English: https://www.little-ai.io/
+
+## 服务
+
+- **咨询**：机会与可行性评估；自建 / 采购 / 适配策略；有可衡量结果的路线图。
+- **系统设计**：Agent 与工作流架构；大模型不能“猜”的环节用规则引擎与判定表；评测、溯源与合规设计。
+- **系统集成**：文档、CAD 与数据库流水线；云、多云与本地部署；身份、安全与数据驻留。
+- **前置部署工程（FDE）**：工程师嵌入你的团队与行业专家，面对真实数据和系统，负责交付直至上线，并向你的团队转移知识。
+- **AI 产品**：数字助理与报告生成 Agent；供专家审阅签发的工作台；自托管或托管运营。
+
+## 工作方式
+
+1. 与专家共同探索：理解工作本身、行业标准和判断力所在。
+2. 围绕约束做设计：把规则、合规与数据限制转化为架构，明确哪些由 AI 起草、哪些由规则判定、哪些由人审批。
+3. 嵌入式构建与集成：前置部署工程师在你的环境中构建。
+4. 交付价值并持续迭代：以真实结果衡量，交付由你的团队掌握的系统。
+
+## 原则
+
+- 决策权属于专家。
+- 受约束，而非自由发挥：模型只用于抽取、改写和建议。
+- 默认可追溯：输出附带来源与推理。
+- 需要时保持私有：在自有硬件或私有云上运行开源模型。
+
+## 精选案例
+
+### 地质灾害评估：内核可验证的 AI 报告生成
+- 问题：报告必须遵循国家标准，整合业主与现场资料，并附带 CAD 图件。
+- 方法：文字与图件共享事实库；固定内容用模板与规则；大模型只负责抽取、改写和建议。危险性等级由专家验证过的判定表给出，绝不由模型决定，并独立重新计算校验。
+- 交付：报告生成 Agent，以及管理报告生命周期、现场数据、Word 与 DWG 文件的 Web 工作台。
+- 代码：https://github.com/little-ai-io/tinker-ai · https://github.com/little-ai-io/geo-hazard-assessment-workbench
+
+### 法律：律所的数字助理
+- 问题：律所不能把客户案件发送到公共模型 API。
+- 方法：运行在本地部署开源模型上的 Agent 后端（vLLM、Qwen3.5-27B、Google ADK、FastAPI）。
+- 交付：自托管基础平台，客户数据不离开律所。
+- 代码：https://github.com/little-ai-io/keystone
+
+### AI 基础设施：面向计算机视觉公司的多云 ML 平台
+- 问题：训练规模超出本地机器；TB 级数据集、GPU 紧缺、服务器与边缘硬件并存。
+- 方法：两个云上的 Kubernetes 加本地 GPU 之上的统一作业提交层，Ray 数据流水线、分布式训练、边缘编译。
+- 结果：训练时间从数天缩短到 12 小时以内；数周内提交数千个托管作业。
+
+### 会计
+文档密集、规则明确的会计工作，准确性与审计线索至关重要。从业者定义规则，AI 负责抽取与起草，每个数字都可追溯到来源。
+
+## 常见问题
+
+**Little AI 是做什么的？** 与企业及其行业专家共同把 AI 深度整合进垂直领域：咨询、系统设计、系统集成、前置部署工程和 AI 产品。
+
+**什么是前置部署工程（FDE）？** 我们的工程师嵌入你的团队与行业专家，面对真实数据和系统，负责交付直至上线，并向你的团队转移知识。
+
+**你们服务哪些行业？** 目前涉及会计、法律、地质灾害评估和 AI 基础设施；适用于任何有专业知识、标准和文档的领域。
+
+**AI 可以部署在我们自己的基础设施上吗？** 可以。我们在本地或私有云部署开源模型。
+
+**合作如何开始？** 给我们发邮件。先做一次简短沟通，再约定一个能证明价值的首个交付物。
+
+**你们只做咨询，还是也做产品？** 两者都做。
+
+**团队背景是什么？** 来自 Microsoft、Cruise Automation、Walmart 以及多家创业公司的生产环境工程经验。
