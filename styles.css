@@ -30,14 +30,15 @@ body {
 ::selection { background: #171717; color: #fff; }
 a { color: inherit; text-decoration: none; }
 img, svg { max-width: 100%; }
-h1, h2, h3 { line-height: 1.1; margin: 0; letter-spacing: -0.035em; font-weight: 500; }
+h1, h2, h3 { line-height: 1.1; margin: 0; letter-spacing: -0.035em; font-weight: 500; text-wrap: balance; }
 p { margin: 0; }
+p, li, dd, summary, .stat span { text-wrap: pretty; }
 ul, ol { margin: 0; padding: 0; list-style: none; }
 
 .wrap { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 20px; }
 @media (min-width: 720px) { .wrap { padding: 0 32px; } }
 
-.grad-text { color: inherit; }
+.grad-text { color: inherit; white-space: nowrap; }
 .eyebrow {
   font-family: var(--mono);
   font-size: 12px;
@@ -109,7 +110,9 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 #net { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; opacity: 0.55; }
 .hero .eyebrow { margin-bottom: 22px; }
 .hero h1 { font-size: clamp(40px, 6.6vw, 80px); max-width: 15ch; margin: 0 auto; letter-spacing: -0.05em; }
-:lang(zh) .hero h1 { max-width: 11em; letter-spacing: -0.02em; }
+:lang(zh) .hero h1 { font-size: clamp(24px, 6.6vw, 80px); max-width: none; letter-spacing: -0.02em; }
+/* CJK headings: break only at spaces / phrase boundaries, never between two characters of a word, so no browser can strand a lone last character */
+:lang(zh) h1, :lang(zh) h2, :lang(zh) h3 { word-break: keep-all; overflow-wrap: break-word; }
 .hero .lead { margin: 26px auto 0; max-width: 60ch; font-size: clamp(16px, 1.8vw, 19px); color: var(--muted); }
 .hero-cta { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
 .hero-exp { margin-top: 36px; font-size: 13px; color: var(--muted); font-family: var(--mono); }
@@ -131,7 +134,7 @@ section { padding: 112px 0; position: relative; }
 .sec-head p { margin-top: 16px; color: var(--muted); font-size: 17px; max-width: 54ch; }
 
 .grid { display: grid; gap: 16px; }
-.g-services { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.g-services { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
 .g-cases { grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); }
 
 .card {
@@ -237,3 +240,5 @@ section { padding: 112px 0; position: relative; }
   .js .reveal { opacity: 1; transform: none; transition: none; }
   .card, .btn { transition: none; }
 }
+
+.nb { white-space: nowrap; }
