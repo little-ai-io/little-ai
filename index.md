@@ -5,7 +5,7 @@ Little AI works side by side with enterprises and their domain experts to turn A
 Domains: accounting, legal, geological hazard assessment, AI infrastructure.
 Team experience: Microsoft, Cruise Automation, Walmart and startups.
 Contact: contact@little-ai.io · GitHub: https://github.com/little-ai-io · Blog: https://jilongliao.github.io/
-中文版: https://www.little-ai.io/zh/
+中文版: https://little-ai.io/zh/
 
 ## Services
 

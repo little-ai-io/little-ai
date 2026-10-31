@@ -4,9 +4,9 @@
 
 ## Pages
 
-- [Little AI (English)](https://www.little-ai.io/index.md): Services, approach, selected work, team and FAQ in Markdown
-- [Little AI (中文)](https://www.little-ai.io/zh/index.md): 服务、工作方式、案例、团队与常见问题（Markdown）
-- [Full content](https://www.little-ai.io/llms-full.txt): Both languages in one file
+- [Little AI (English)](https://little-ai.io/index.md): Services, approach, selected work, team and FAQ in Markdown
+- [Little AI (中文)](https://little-ai.io/zh/index.md): 服务、工作方式、案例、团队与常见问题（Markdown）
+- [Full content](https://little-ai.io/llms-full.txt): Both languages in one file
 
 ## Links
 

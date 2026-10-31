@@ -5,7 +5,7 @@ Little AI 与企业及其行业专家并肩工作，把 AI 变成真正创造价
 涉及领域：会计、法律、地质灾害评估、AI 基础设施。
 团队经验：Microsoft、Cruise Automation、Walmart 及创业公司。
 联系：contact@little-ai.io · GitHub: https://github.com/little-ai-io · 博客: https://jilongliao.github.io/
-English: https://www.little-ai.io/
+English: https://little-ai.io/
 
 ## 服务
 
